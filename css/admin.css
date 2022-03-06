@@ -1,0 +1,81 @@
+
+body{
+	background-color: white;
+	min-height: 800px;
+}
+
+
+
+.left-admin{
+	width: 100%;
+	min-height: 700px;
+	background-color: #00AFF0;
+	font-size: 14px;
+	color:white;
+}
+
+
+
+.admin-img{
+	background-color: white;
+	width: 160px;
+	height: 160px;
+	border-radius: 100px;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+
+
+.left-admin ul{
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+
+.left-admin ul li{
+display:block;
+}
+
+.left-admin ul li a{
+color:white;
+display: block;
+font-size: 14px;
+font-weight: bold;
+text-decoration: none;
+padding: 10px;
+border-bottom: 1px dashed white;
+padding-left: 20px;
+}
+
+.left-admin ul li a:hover{
+	background-color: white;
+	color:black;
+}
+
+
+
+
+.admin-form{
+	width: 70%;
+	overflow: hidden;
+}
+
+.success{
+	padding: 10px;
+	border:1px solid green;
+	border-radius: 3px;
+	color:black;
+	background-color: #EBF8A4;
+	margin-bottom: 20px;
+}
+
+.error{
+	padding: 10px;
+	border:1px solid black;
+	border-radius: 3px;
+	color:black;
+	background-color: #FFC0CB;
+	margin-bottom: 20px;
+}
+button{padding: 10px; font-size: 20px; font-weight: bold; }

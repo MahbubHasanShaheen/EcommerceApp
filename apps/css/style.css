@@ -1,0 +1,791 @@
+*{
+
+	margin:0px;
+	padding: 0px;
+	outline: 0px;
+
+}
+
+.vowcer h4{text-align: center;}
+
+body{
+	min-height:600px;
+	width: 100%;
+	font-size: 15px;
+	background-color: #FFFFFF;
+
+	
+}
+
+table th{background-color: #E7E7E7}
+table td{background-color: }
+
+/*-------Start Header Page---------------------*/
+
+
+.header_top{
+	
+	
+	background-color: red;
+	min-height: 100px;
+	width: 100%;
+
+}
+
+
+
+#top_message{
+          width: 40%;
+          margin: 0px auto;
+          color: white;
+          height: 70px;
+          background-color: gray;
+          text-align: center;
+          padding: 20px;
+          display: none;
+        }
+
+
+.logo{
+	padding-top: 5px;
+}
+
+
+
+
+
+.hotline1{
+	padding-top: 2px;
+	
+}
+
+
+
+
+.sign{
+	float: right;
+	
+}
+
+.reg{
+	border:1px solid black;
+	background-color: white;
+  }
+
+.login{
+	color: white;
+	border:1px solid brown;
+  }
+
+.logout{
+	border:1px solid brown;
+  }
+
+.sign a{
+font-weight: bold;
+color: white;
+}
+
+
+.success{
+	background-color: green;
+}
+/*-------End Header Page---------------------*/
+
+
+
+
+
+/*-------Start Navigation Page---------------------*/
+ .navbar-default{
+ 	background-color: white;
+ 	padding-top: 10px;
+ 	min-height: 80px;
+
+ }
+ nav{background-color: white;}
+
+nav ul li a{
+	color: black;
+	font-size: 13px; font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+
+.navbar ul li:hover{background-color: silver}
+  ul li a:hover{color: black}
+
+.dropdown  li {
+  background-color: white;
+	display: hide;
+
+}
+
+
+
+
+ul li:hover > ul{
+	display: block;
+	
+}
+
+
+
+.dropdown ul li a{
+	color: black;
+}
+
+/*------------End Navigation Page-------------*/
+
+
+
+
+
+
+
+
+
+/*------------Start Product Home Page-------------*/
+
+.product-area{
+	background-color: white;
+	width: 100%;
+	min-height:600px;
+	margin: 0px auto;
+	background-size: cover;
+    overflow: hidden;
+
+	
+	
+
+}
+
+
+.product_area h2{
+	width: 70%;
+	float: left;
+	font-weight: normal;
+}
+
+.product-box{
+	width: 90%;
+	min-height: 220px;
+	position: relative;
+	margin-bottom: 30px;
+	padding-right: 0px;
+	position: relative;
+	}
+
+
+.product-box:hover {
+ box-shadow:0px 3px 2px 3px silver;
+}
+
+
+.images-box{
+	width: 100%;
+	height: 200px;
+	
+	position: relative;
+	margin-bottom: 20px;
+	padding-right: 0px;
+	position: relative;
+	
+	
+}
+
+
+.images-box figure{
+margin:0;
+height: 200px;
+position:relative;
+box-shadow:0 0 0px aqua;
+cursor:pointer;
+display:block;
+overflow:hidden;
+border: none;
+}
+
+
+
+
+.product-box h2{
+ text-align:center;
+ color:red;
+ 
+ }
+
+.product-box p{
+text-align:center; 
+
+font-size: 14px;
+}
+
+.product-box h2, p{padding:10px;}
+
+
+figure{
+margin:0;
+height: 200px;
+position:relative;
+box-shadow:0 0 0px aqua;
+cursor:pointer;
+display:block;
+overflow:hidden;
+
+
+}
+
+figcaption span{
+
+	color: yellow;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+figcaption{
+ position:absolute;
+ top:0;
+ background:rgba(0,0,0,.4);
+ color:white;
+ height:100px;
+ width:100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+.price-box{
+	width: 100%;
+
+	position: relative;
+	margin-top:0px;
+	left:0px;
+	padding-bottom: 4px;
+ 
+}
+
+
+.price-box p{
+	margin-top: 7px;
+	text-align: left;
+	font-size: 14px;
+	
+	
+	
+}
+
+.product-box h4{
+	margin-top: 12px;
+	font-size: 15px;
+	width: 100%;
+}
+
+.product-box h4 a{text-decoration: none; color:black;}
+
+
+/*------------End Product Home Page-------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------Start speciality Home Page-------------*/
+.speciality{
+
+    min-height: 450px;
+	width: 100%;
+	}
+
+
+.para{
+
+    min-height: 450px;
+	width: 100%;
+	position: relative;
+	
+	padding-bottom: 20px;
+	padding-top: 20px;
+	
+
+}
+
+
+.para h2{
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	padding-right: 50px;
+}
+
+.para p{
+	color: black;
+}
+.para img{border:1px solid silver;}
+
+/*------------End speciality Home Page-------------*/
+
+
+
+
+/*------------Start Footer_top Page-------------*/
+
+
+
+
+
+.footer-top ul{
+	width: 100%;
+	padding: 15px;
+}
+
+
+.footer-top ul li{
+	color: white;
+	list-style: none;
+	font-size: 15px;
+	text-align: justify;
+	padding-left: 40px;
+}
+
+
+.footer-top h2{
+	margin-bottom: 10px;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 24px;
+	background-color: #FFFFFF;
+	border-radius: 6px;
+	padding: 6px;
+	
+
+}
+
+.nav-bottom{
+
+border-left: 1px solid white;
+padding-top: 10px;
+margin: 5px;
+padding-bottom: 5px;
+
+
+}
+
+.nav-bottom img{
+      margin: 20px;
+   }
+
+
+/*------------End Footer_top Page-------------*/
+
+
+
+
+
+
+
+
+/*------------Start Footer_Bottom Page-------------*/
+.footer-bottom{
+	width: 100%;
+	background-color: #0882DA;
+
+}
+
+
+
+.footer-bottom p{
+	color:white;
+}
+
+.footer-bottom a{
+	color:white;
+	padding: 0px 10px;
+}
+
+
+ 
+	footer{width: 100%;
+	   min-height: 30px;
+    background-color: #0882DA;
+}
+
+
+/*------------End Footer_Bottom Page-------------*/
+
+
+
+
+
+.back{height: 100%;
+ width: 100%; 
+ background-color:black;
+ position: absolute;
+ z-index: 10;bottom:0;
+ opacity: 0.6;
+
+  }
+
+
+
+.details{
+
+}
+
+
+.img{
+
+	min-height: 300px;
+	width: 100%;
+}
+
+.productimage-details img{
+	
+	min-height: 300px;
+	width: 300px;
+	z-index: 999;
+}
+
+
+
+
+.details table{
+width: 100%;
+}
+
+
+.details input{
+ height: 30px;
+ border: 1px solid gray;
+}
+
+
+.details table td{
+	border: 1px solid silver;
+	padding: 15px;
+}
+
+
+.all-image{
+	padding: 10px;
+	border:1px solid silver;
+	width: 100%;
+	height: 140px;
+
+}
+
+.all-image img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+/*------------Start Cart Page-------------*/
+.cart{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.cart input{
+	height: 30px;border: 1px solid gray;
+}
+.cart table{
+	width: 80%;
+	margin: 0px auto;
+}
+
+.cart table td{
+	border: 1px solid silver;
+	padding: 10px;
+}
+
+.cart table tr th{
+
+		border: 1px solid silver;
+	    padding: 10px;
+}
+/*------------End Cart Page-------------*/
+
+/*------------Start Order Page-------------*/
+.order{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.order table{
+	width: 100%;
+}
+
+.order table td{
+	border: 1px solid silver;
+	padding: 10px;
+}
+
+.order table tr th{
+
+		border: 1px solid silver;
+	    padding: 10px;
+}
+
+/*------------End Order Page-------------*/
+
+
+
+/*------------Start Slide Poster Page-------------*/
+.poster{
+	  margin-top: 50px;
+	  border-radius: 5px;
+	  border: 3px solid white;
+	  background-color: green;
+	  margin-left: 15px;
+	 position: relative;
+	  }
+
+.poster h3{
+	color: white;
+	 font-weight: bold;
+	  
+	   text-align: center;
+	}
+.poster h4{
+	   color: yellow;
+	   font-weight: bold;
+	   
+	    text-align: center;
+	    margin-top: 30px
+	}
+
+/*------------End Slide Poster Page-------------*/
+
+
+
+
+
+
+	.save li{
+          
+           padding: 5px;
+           list-style: none;
+
+	}
+
+
+
+	.save  li a{
+          font-size: 17px; color: white;
+          text-decoration: none;
+
+	}
+
+
+
+
+
+
+	.reg{
+		
+		padding: 15px;
+		color: black;
+		margin-left: 15px;
+		font-weight: bold;
+		border-radius: 5px;
+	}
+
+
+	.login{
+		
+		padding: 15px;
+		color: black;
+		margin-left: 0px;
+		font-weight: bold;
+		border-radius: 5px;
+	}
+
+		.logout{
+		
+		padding: 15px;
+		color: black;
+		margin-left: 0px;
+		font-weight: bold;
+		border-radius: 5px;
+	}
+
+   .welcome ul{
+   	  margin-top: 20px;
+   }
+
+	.welcome li{
+		list-style: none;
+		border-bottom: 1px solid white;
+		padding: 6px;
+		background-color: pink;
+		
+	}
+
+
+		.welcome li a{
+		text-decoration: none;
+		font-size: 20px;
+		padding-left: 20px;
+		font-weight: bold;
+		color: green;
+	}
+
+	.user-side{
+		border:1px solid silver;
+		height: 400px;
+		padding: 60px;
+		background-color: aqua;
+	}
+
+	.user-side h1{
+        color: green;
+        font-weight: bold;
+        font-size: 48px;
+        text-shadow: 5px 5px 0px 5px silver;
+	}
+
+	/*-----Mission Page------------*/
+      .about-details p{font-size: 16px;}
+
+	/*------------Mission Page-----*/
+
+
+		/*-----privacy Page------------*/
+      .about-text p{font-size: 16px;}
+
+	/*------------privacy Page-----*/
+
+
+
+
+	.product-image-details{
+	border:1px solid #F4F4F4;
+	min-height: 400px;
+	width: 90%;
+}
+
+
+.product-image-details .details-img{
+	width: 100%;
+	height:400px;
+}
+
+.product-image-details figure{
+	width: 80%;
+	margin-left: 10%;
+	min-height: 400px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+
+.sub-images-box{
+margin-top: 20px;
+}
+
+
+.sub-images-box .sub-img{
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border:1px solid #F6F6F6;
+	float: left;
+	padding: 10px;
+	margin-right:20px;
+}
+
+
+.sub-images-box .sub-img:hover{
+border:1px solid silver;
+cursor: pointer;
+}
+
+
+.sub-images-box .sub-img img{
+	width: 100%;
+	height: 80px;
+}
+
+
+.product-details-name-hed{
+	font-size: 26px;
+	border-bottom: 1px dashed silver;
+	padding-bottom: 10px;
+}
+
+.brand-details{
+	width: 100%;
+	padding: 10px;
+	background-color: #F7F7F7;
+}
+
+.social-details-icon{
+	font-size: 24px;
+}
+
+
+
+.cart-hover-box{
+width: 320px;
+min-height: 130px;
+position: fixed;
+border: 1px solid #F5F6F7;
+right: 65px;
+top: 101px;
+z-index: 2000;
+background-color: #FAFAFA;
+display: none;
+}
+
+
+.chart-short-box{
+	width: 100%;
+	padding: 7px;
+	border-bottom: 1px solid #F6F6F6;
+	overflow: hidden;
+
+}
+
+.chart-short-box img{
+	float: left;
+	height: 40px;
+	width: 40px;
+}
+
+.chart-short-box p{
+	padding-left: 10px;
+	padding-top: 5px;
+	font-size: 14px;
+	float: left;
+	width: 120px;
+}
+
+
+.chart-short-box span{
+	float: right;
+	padding-right: 10px;
+}
+
+

@@ -1,0 +1,85 @@
+<script>
+   $(document).ready(function(){
+    $('#country').DataTable();
+});
+</script>
+
+ <div class="row" style="margin: 10px;">
+ <div class="col-md-10">
+ <div class="countryhead">
+ <div class="row">
+ <div class="col-md-2">
+    <a href="<?php appsConfig::URL('admin.php?admin=createCountry')?>"><button class="btn btn-success" style="margin-top: 20px">Create Data</button></a>
+ </div>
+ <div class="col-md-10">
+   <h1 style="text-align: center;">Country Page</h1>
+ </div>
+ </div>
+
+ 
+  <hr>
+</div>
+  </div>
+ </div>
+
+
+
+ <div class="row" style="margin: 10px;">
+ <div class="col-md-10">
+  <table class="display" id="country">
+  	<thead>
+  		<tr style="background-color: #29b8c2; border-top:2px solid black;">
+  			<th>SL</th>
+  			<th>Name</th>
+  			<th>Action</th>
+  		</tr>
+
+  	</thead>
+
+    <tbody>
+    
+
+    	<?php
+
+  $c= new DBcontext();
+
+  if (isset($_GET['delete'])) {
+  $id= $_GET['delete'];
+  $command="delete from country where id=".$id;
+  $c->deleteData($command);
+ }
+
+
+  $i=1;
+  $sql="select* from country";
+ 
+  foreach ($c->getData($sql) as $value) {
+   
+   echo   '<tr>
+        <td>'.$i++.'</td>
+        <td>'.$value["name"].'</td>
+        <td>
+          <a href="'.appsConfig::Link('admin.php?admin=editCountry&edit='.$value['id']).'"><button class="btn btn-primary">Edit</button></a>
+
+
+          <a href="'.appsConfig::Link('admin.php?admin=country&delete='.$value['id']).'"><button class="btn btn-danger" >Delete</button></a>
+        </td>
+      </tr>';
+  }
+
+
+
+
+
+
+
+      ?>
+
+
+    </tbody>
+
+  </table>
+  </div>
+  </div>
+
+  

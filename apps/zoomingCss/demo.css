@@ -1,0 +1,45 @@
+
+
+
+.github {
+    margin-top: 0;
+}
+
+.github .icon-star {
+    font-size: 16px;
+}
+
+.code {
+    padding: 8px 10px;
+
+    background-color: #fff;
+}
+
+#page2 .cell {
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+            align-items: flex-start;
+}
+
+#page2 p,
+#page4 p {
+    margin-bottom: 20px;
+}
+
+#page3 {
+    padding: 4% 10%;
+}
+
+#page3 .cell {
+            flex-direction: column;
+
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+}
+
+#page4 a {
+    margin-right: 20px;
+}
